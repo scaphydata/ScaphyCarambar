@@ -1,4 +1,6 @@
-<?php //MON HEADER ?>
+<?php 
+//mon header scaphycarambar
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -25,8 +27,10 @@
 	<header>
 		<div class="entete">
 			<img src="images/logoScaphyCarambar.png" alt="logo Scaphy Carambar" class="logoscaphycarambar" /><h1>Scaphy Carambar</h1>
-		</div>
+            <h2>Aïe Aïe Aïe Carambar !!!</h2>
+        </div>
+
 	</header>
-<!-- MAIN -->
+	<!-- MAIN -->
 	<main>
 

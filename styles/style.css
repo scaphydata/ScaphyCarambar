@@ -1,3 +1,39 @@
+@-webkit-keyframes animationlogo {
+	0% {
+		transform: scaleX(0);
+	}
+	25% {
+		transform: scaleX(1);
+	}
+	50% {
+		transform: scaleX(0);
+	}
+	75% {
+		transform: scaleX(-1);
+	}
+	100% {
+		transform: scaleX(0);
+	}
+}
+
+@keyframes animationlogo {
+	0% {
+		transform: scaleX(0);
+	}
+	25% {
+		transform: scaleX(1);
+	}
+	50% {
+		transform: scaleX(0);
+	}
+	75% {
+		transform: scaleX(-1);
+	}
+	100% {
+		transform: scaleX(0);
+	}
+
+}
 /* GLOBAL */
 *{
     box-sizing: border-box;
@@ -53,7 +89,7 @@ div.entete img.logoscaphycarambar
 	margin: 0 auto;
 	max-width: 200px;
 }
-h1 
+h1
 {
 	font-size: 3em;
 	background-color:rgba(255,255,255,0);
@@ -61,7 +97,14 @@ h1
 	display: block;
 	text-align: center;
 	margin: 0 auto;
-	text-shadow: 3px 3px limegreen;
+	text-shadow: 3px 3px red;
+}
+h2
+{
+	font-size: 2em;
+	text-shadow: 1px 1px yellow;
+	color:red;
+	display:block;
 }
 /* MAIN */
 div.commentaires
@@ -173,8 +216,13 @@ div.piedsdepage img
 	max-width: 150px;
 	height: auto;
 	border: 6px solid #2A8782;
-	margin-bottom: 45px;
-	margin-top: 45px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	-webkit-animation: linear infinite 4.5s alternate animationlogo;
+	animation: linear infinite 4.5s alternate animationlogo;
+	perspective: 200px;
+	perspective-origin: 50% 50%;
+	border-radius: 90px;
 }
 footer p,footer p span
 {
@@ -225,6 +273,7 @@ div.commande span
 		min-width: 300px;
 	}
 	h1
+
 	{
 		font-size: 4.5em;
 		text-align: center;
@@ -234,6 +283,13 @@ div.commande span
 		display: inline-block;
 		vertical-align: middle;
 		text-shadow: 3px 3px limegreen;
+	}
+	h2
+	{
+		font-size: 2em;
+		color:red;
+		text-shadow: 1px 1px yellow;
+		display:inline-block;
 	}
 	.navigationaccueil
 	{

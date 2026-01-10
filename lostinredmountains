@@ -1,0 +1,8 @@
+git add .
+git commit -m "Description du changement"
+git push
+
+
+git add .
+git commit -m "Mise à jour du projet ScaphyCarambar"
+git push
