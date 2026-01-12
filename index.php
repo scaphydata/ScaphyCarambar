@@ -18,12 +18,12 @@ include('templates/_header.php');
         </div>
         <div class="menunavigation" >
             <div>
-                <a href="#" >lorem ipsum dolore sit amet</a>
+                <a href="saisirIdBlagueAAfficher.php" >Afficher une blague par son numéro (:ID)</a>
             </div>
         </div>
         <div class="menunavigation" >
             <div>
-                <a href="#" >lorem ipsum dolore sit amet</a>
+                <a href="blagueAleatroires.php" >Une blague au hasard</a>
             </div>
         </div>
 	</nav>

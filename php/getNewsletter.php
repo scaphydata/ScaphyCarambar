@@ -15,9 +15,7 @@ var_dump($nouvelEmail);
 
     // http://php.net/manual/fr/pdo.prepared-statements.php
     $stmt = $pdo->prepare("
-    
-    INSERT INTO 'newsletter' (newsletter_id,newsletter_mail) VALUES ($nouvelID,$nouvelEmail);
-      
+    INSERT INTO 'newsletter' (newsletter_id,newsletter_mail) VALUES ($nouvelID,$nouvelEmail);     
     ");
      
     try {
